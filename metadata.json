@@ -1,0 +1,6 @@
+{
+  "name": "Apex PitWall - F1 Live Telemetry & Sky Sports Stream",
+  "description": "Real-time Formula 1 live telemetry dashboard, lap timings, sector deltas, and seamless race weekend viewing with Sky Sports F1 stream integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
