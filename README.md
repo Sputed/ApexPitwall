@@ -12,25 +12,8 @@ Whether you are watching a race live or catching up on a delayed broadcast, F1 P
 * **📊 Advanced Telemetry & Analytics:** Toggle individual driver telemetry charts to analyze speeds, RPM, throttle percentage, gear shifts, and braking zones side-by-side.
 * **📻 Team Radio & Race Control:** Streams live transcribed driver radios alongside immediate official FIA Race Control event messages (DRS status, yellow/red flags, safety cars).
 
-### 🏗️ Architecture & Stack
-
-The project is structured as a light, scalable monorepo designed to parse high-frequency data streams efficiently: 
-
-* **Frontend:** Next.js 15 (App Router), React 19, TypeScript, Tailwind CSS v4, Framer Motion, HTML5 Canvas.
-* **Backend:** Python 3.11+ (FastAPI), WebSockets for real-time state streaming, and file-based JSON caching.
-* **Data Pipelines:** Integrated with the community-driven OpenF1 API and official live data streams using linear interpolation for coordinate calculation.
-
-### 🚀 Getting Started
-
-### Prerequisites
-
-* Node.js (v18.x or later)
-* Python (v3.11 or later)
-* pnpm or npm
-
-
 1. Launch your preferred official TV stream or video provider layout on one monitor.
-2. Open **F1 Pitwall** on your secondary screen or layout grid.
+2. Open **ApexPitwall** on your secondary screen or layout grid.
 3. Use the **Delay Slider** in the bottom control bar to add or remove seconds until the visual race events (e.g., a car crossing the finish line or a yellow flag triggering) perfectly mirror the telemetry numbers.
 
 ### 🤝 Contributing
